@@ -2,3 +2,7 @@ Data #class
 com.axonivy.code.camp19 #namespace
 username String #field
 username PERSISTENT #fieldModifier
+message String #field
+message PERSISTENT #fieldModifier
+creditDollars Long #field
+creditDollars PERSISTENT #fieldModifier
