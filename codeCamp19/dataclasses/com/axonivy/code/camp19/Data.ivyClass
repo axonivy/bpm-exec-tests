@@ -1,0 +1,4 @@
+Data #class
+com.axonivy.code.camp19 #namespace
+username String #field
+username PERSISTENT #fieldModifier

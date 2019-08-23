@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: codeCamp19Test
+Bundle-SymbolicName: codeCamp19Test
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.axonivy.code.camp19.test
+Require-Bundle: ch.ivyteam.ivy.bpm.exec.tests;bundle-version="7.0.13",
+ ch.ivyteam.util.tests;bundle-version="7.0.13",
+ ch.ivyteam.ivy.components.tests;bundle-version="7.0.13",
+ ch.ivyteam.ivy.database.configuration.tests;bundle-version="7.0.13",
+ ch.ivyteam.ivy.project.tests;bundle-version="7.0.13",
+ org.aspectj.runtime;bundle-version="1.7.2",
+ ch.ivyteam.ivy.macro;bundle-version="7.0.13"

@@ -1,0 +1,4 @@
+ch.ivyteam.ivy.designer.preferences.DataClassPreferencePage\:DEFAULT_DATA_CLASS=com.axonivy.code.camp19.test.Data
+ch.ivyteam.ivy.designer.preferences.DataClassPreferencePage\:DEFAULT_NAMESPACE=com.axonivy.code.camp19.test
+ch.ivyteam.ivy.project.preferences\:PROJECT_VERSION=63000
+eclipse.preferences.version=1
