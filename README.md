@@ -19,4 +19,14 @@ Demonstrates how process execution tests can be written using lots of internal i
 - Copy your Designer 'webapps' directory into the 'Server' project
 - Run 'SimpleTest'
 
-![fdas](doc/img/lts_install_testFeature_fromDrone.png)
+![installDesigner](doc/img/lts_install_testFeature_fromDrone.png)
+
+## Maven run
+Module under test must be built as 'eclipse-plugin' project and therefore
+the build is in the current state a big hack. However it shows that maven
+can resolve special test dependency bundle and run junit.
+
+- Build the main module : mvn clean verify
+- Build the test project : 'mvn -f codeCamp19Test/pomBundle.xml clean verify'
+
+![mvnBuild](doc/img/mvn.bpm.exec.tests.png)
